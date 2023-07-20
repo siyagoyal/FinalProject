@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0268B13D2A68265800387DFB /* PoliticalQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268B13C2A68265800387DFB /* PoliticalQuiz.swift */; };
+		0268B13F2A682C8D00387DFB /* ChooseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268B13E2A682C8D00387DFB /* ChooseState.swift */; };
+		0268B1412A682D4900387DFB /* Connecticut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268B1402A682D4800387DFB /* Connecticut.swift */; };
+		0268B1432A682D7200387DFB /* NewJersey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268B1422A682D7100387DFB /* NewJersey.swift */; };
+		0268B1472A682DA800387DFB /* NewYork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268B1462A682DA800387DFB /* NewYork.swift */; };
+		0268B1492A685C9400387DFB /* NJCongress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268B1482A685C9400387DFB /* NJCongress.swift */; };
+		0268B14B2A68643100387DFB /* NYCongress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268B14A2A68643100387DFB /* NYCongress.swift */; };
+		0268B14D2A6864F400387DFB /* ConnecticutCongress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268B14C2A6864F400387DFB /* ConnecticutCongress.swift */; };
+		0268B14F2A69850500387DFB /* PoliticalQuizQ2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268B14E2A69850500387DFB /* PoliticalQuizQ2.swift */; };
+		0268B1512A6986DF00387DFB /* PoliticalQuizQ3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268B1502A6986DF00387DFB /* PoliticalQuizQ3.swift */; };
+		0268B1532A69876800387DFB /* PoliticalQuizQ4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268B1522A69876800387DFB /* PoliticalQuizQ4.swift */; };
+		0268B1552A6987B900387DFB /* PoliticalQuizQ5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268B1542A6987B900387DFB /* PoliticalQuizQ5.swift */; };
+		0268B1572A69881F00387DFB /* QuizResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268B1562A69881F00387DFB /* QuizResults.swift */; };
 		02AF229A2A6592ED00304857 /* FinalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF22992A6592ED00304857 /* FinalProjectApp.swift */; };
 		02AF229C2A6592ED00304857 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF229B2A6592ED00304857 /* ContentView.swift */; };
 		02AF229E2A6592EF00304857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AF229D2A6592EF00304857 /* Assets.xcassets */; };
@@ -14,6 +27,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0268B13C2A68265800387DFB /* PoliticalQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticalQuiz.swift; sourceTree = "<group>"; };
+		0268B13E2A682C8D00387DFB /* ChooseState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseState.swift; sourceTree = "<group>"; };
+		0268B1402A682D4800387DFB /* Connecticut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connecticut.swift; sourceTree = "<group>"; };
+		0268B1422A682D7100387DFB /* NewJersey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJersey.swift; sourceTree = "<group>"; };
+		0268B1462A682DA800387DFB /* NewYork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYork.swift; sourceTree = "<group>"; };
+		0268B1482A685C9400387DFB /* NJCongress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJCongress.swift; sourceTree = "<group>"; };
+		0268B14A2A68643100387DFB /* NYCongress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCongress.swift; sourceTree = "<group>"; };
+		0268B14C2A6864F400387DFB /* ConnecticutCongress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnecticutCongress.swift; sourceTree = "<group>"; };
+		0268B14E2A69850500387DFB /* PoliticalQuizQ2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticalQuizQ2.swift; sourceTree = "<group>"; };
+		0268B1502A6986DF00387DFB /* PoliticalQuizQ3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticalQuizQ3.swift; sourceTree = "<group>"; };
+		0268B1522A69876800387DFB /* PoliticalQuizQ4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticalQuizQ4.swift; sourceTree = "<group>"; };
+		0268B1542A6987B900387DFB /* PoliticalQuizQ5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticalQuizQ5.swift; sourceTree = "<group>"; };
+		0268B1562A69881F00387DFB /* QuizResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResults.swift; sourceTree = "<group>"; };
 		02AF22962A6592ED00304857 /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02AF22992A6592ED00304857 /* FinalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectApp.swift; sourceTree = "<group>"; };
 		02AF229B2A6592ED00304857 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +61,19 @@
 		02AF228D2A6592ED00304857 = {
 			isa = PBXGroup;
 			children = (
+				0268B13E2A682C8D00387DFB /* ChooseState.swift */,
+				0268B1462A682DA800387DFB /* NewYork.swift */,
+				0268B14A2A68643100387DFB /* NYCongress.swift */,
+				0268B1422A682D7100387DFB /* NewJersey.swift */,
+				0268B1482A685C9400387DFB /* NJCongress.swift */,
+				0268B1402A682D4800387DFB /* Connecticut.swift */,
+				0268B14C2A6864F400387DFB /* ConnecticutCongress.swift */,
+				0268B13C2A68265800387DFB /* PoliticalQuiz.swift */,
+				0268B14E2A69850500387DFB /* PoliticalQuizQ2.swift */,
+				0268B1502A6986DF00387DFB /* PoliticalQuizQ3.swift */,
+				0268B1522A69876800387DFB /* PoliticalQuizQ4.swift */,
+				0268B1542A6987B900387DFB /* PoliticalQuizQ5.swift */,
+				0268B1562A69881F00387DFB /* QuizResults.swift */,
 				02AF22982A6592ED00304857 /* FinalProject */,
 				02AF22972A6592ED00304857 /* Products */,
 			);
@@ -137,8 +176,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0268B14B2A68643100387DFB /* NYCongress.swift in Sources */,
+				0268B14D2A6864F400387DFB /* ConnecticutCongress.swift in Sources */,
+				0268B1512A6986DF00387DFB /* PoliticalQuizQ3.swift in Sources */,
 				02AF229C2A6592ED00304857 /* ContentView.swift in Sources */,
+				0268B1532A69876800387DFB /* PoliticalQuizQ4.swift in Sources */,
 				02AF229A2A6592ED00304857 /* FinalProjectApp.swift in Sources */,
+				0268B1472A682DA800387DFB /* NewYork.swift in Sources */,
+				0268B1432A682D7200387DFB /* NewJersey.swift in Sources */,
+				0268B13F2A682C8D00387DFB /* ChooseState.swift in Sources */,
+				0268B13D2A68265800387DFB /* PoliticalQuiz.swift in Sources */,
+				0268B1412A682D4900387DFB /* Connecticut.swift in Sources */,
+				0268B1572A69881F00387DFB /* QuizResults.swift in Sources */,
+				0268B14F2A69850500387DFB /* PoliticalQuizQ2.swift in Sources */,
+				0268B1552A6987B900387DFB /* PoliticalQuizQ5.swift in Sources */,
+				0268B1492A685C9400387DFB /* NJCongress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

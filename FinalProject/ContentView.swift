@@ -8,14 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var location = ""
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, Siya!")
+        
+            NavigationStack {
+                ZStack {
+                    Color("darkgreen")
+                        .ignoresSafeArea()
+                VStack(alignment: .center) {
+                    Image("newgovtrackrlogo")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .padding(.all)
+                    Text("Empower your voice, shape your nation, GovTrackr")
+                        .fontWeight(.bold)
+                        .foregroundColor(Color.white)
+                        .multilineTextAlignment(.center)
+                    NavigationLink(destination: PoliticalQuiz()) {
+                        Text("Which Political Party Suits You?")
+                            .foregroundColor(Color.white)
+                            .padding(.all)
+                        NavigationLink(destination: ChooseState()) {
+                            Text("Choose your location!")
+                                .foregroundColor(Color.white)
+                                .padding(.all)
+                        }
+                    }
+                }
+                .padding(.all)
+            }
         }
-        .padding()
+        
     }
 }
 
